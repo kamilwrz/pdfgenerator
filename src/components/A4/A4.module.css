@@ -1,0 +1,9 @@
+.A4 {
+    height: 841px;
+    width: 595px;
+    position: relative;
+    margin: 5px auto;
+    font-family: 'Helvetica';
+    background-color: white;
+    /* cursor: crosshair;*/
+}

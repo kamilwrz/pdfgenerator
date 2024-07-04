@@ -1,0 +1,35 @@
+.addText {
+    border: none;
+    font-size: 0.7rem;
+    padding: 4px;
+    border-radius: 2px;
+}
+
+.addText:focus {
+    border: none;
+    font-size: 0.7rem;
+    padding: 4px;
+}
+
+.addText:focus {
+    outline: none;
+    border-bottom: 1px solid rgb(146, 0, 127);
+}
+
+.addTextLabel {
+    text-transform: uppercase;
+    display: block;
+    font-size: 0.5rem;
+    color: rgb(231, 231, 231);
+    padding: 2px
+}
+
+.addTextBtn {
+    margin-left: 5px;
+    font-size: 0.7rem;
+    background-color: rgb(68, 240, 0);
+    padding: 4px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}

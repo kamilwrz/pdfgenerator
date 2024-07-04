@@ -1,0 +1,59 @@
+.menu{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.label{
+    text-transform: uppercase;
+    display: block;
+    font-size: 0.5rem;
+    color: rgb(231, 231, 231);
+    padding: 2px
+}
+
+.fontSize{
+    width: 3rem;
+    text-align: center;
+    font-size: 0.7rem;
+    border: none;
+    padding: 4px;
+    border-radius: 2px;
+}
+
+.fontSize:focus{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+   
+}
+
+.editText{
+    border: none;
+    font-size: 0.7rem;
+    padding: 4px;
+    border-radius: 2px;
+}
+
+.editText:focus{
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.editColor{
+    border: none;
+    font-size: 0.7rem;
+    border-radius: 2px;
+    height: 20px;
+    width: 2rem;
+    background-color: white;
+}
+
+.btnDelete{
+    background-color: red;
+    margin-top: 11px;
+    font-size: 0.7rem;
+    padding: 4px;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+}

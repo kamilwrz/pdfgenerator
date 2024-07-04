@@ -1,0 +1,59 @@
+.line {
+    position: absolute;
+}
+
+.changeHeightWrapper,
+.changeWidthWrapper {
+    position: absolute;
+    font-size: 0.7rem;
+}
+
+.changeWidthWrapper {
+    margin-top: -100px;
+    margin-left: 5px;
+}
+
+.changeWidthWrapper p {
+    height: 5rem;
+    text-align: center;
+    color: blueviolet;
+    padding: 3px;
+    border: 0.5px solid;
+    writing-mode: vertical-lr;
+    text-orientation: revert;
+    border-radius: 4px;
+}
+
+.changeHeightWrapper p {
+    width: 5rem;
+    text-align: center;
+    color: blueviolet;
+    margin-left: -35px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding: 3px;
+    border: 0.5px solid;
+    border-radius: 4px;
+}
+
+.changeHeight,
+.changeWidth {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    box-shadow: 1px 1px 2px 1px;
+    background-color: lightgrey;
+}
+
+.changeWidth {
+    cursor: e-resize;
+    margin-left: 1.5px;
+    margin-top: 5px;
+}
+
+.changeHeight {
+    cursor: n-resize;
+}

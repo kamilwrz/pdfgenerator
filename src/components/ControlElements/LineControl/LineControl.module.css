@@ -1,0 +1,50 @@
+.lineWrapper {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.label {
+    text-transform: uppercase;
+    display: block;
+    font-size: 0.5rem;
+    color: rgb(231, 231, 231);
+    padding: 2px
+}
+
+.addLineBtn {
+    font-size: 0.7rem;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: rgb(68, 240, 0);
+    width: 45px;
+    height: 20.2px;
+}
+
+.editColor {
+    border: none;
+    font-size: 0.7rem;
+    border-radius: 2px;
+    height: 20px;
+    width: 2rem;
+    background-color: white;
+}
+
+.btnDelete {
+    background-color: red;
+    margin-top: 11px;
+    font-size: 0.7rem;
+    padding: 4px;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+}
+
+.btnCenter {
+    background-color: white;
+    padding: 4px;
+    font-size: 0.7rem;
+    border: none;
+    border-radius: 2px;
+    margin-top: 11px;
+}
